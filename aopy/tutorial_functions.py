@@ -29,3 +29,17 @@ def practice_func_ryan2(favorite_food):
     '''
     string_out = 'My favorite food is' + favorite_food
     return string_out
+
+# Leo's practice function
+def practice_func_leo(number_of_fish):
+    '''
+    This function prints a number of fish
+
+    Inputs:
+        number_of_fish [int]: How many fish you have
+        
+    Outputs:
+        statement [str]: a statement of how many fish you have
+    '''
+    
+    return 'You have {} fish'.format(number_of_fish)
